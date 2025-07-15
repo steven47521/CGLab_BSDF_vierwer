@@ -7,7 +7,7 @@ Disney Principled BSDF 渲染及查看器
 - 支持复杂材质参数调整，覆盖金属、塑料、布料、玻璃等多种材质类型
 - 多进程并行渲染，提升大分辨率图像的渲染效率
 - 可视化 UI 界面，支持实时调整参数并预览渲染结果
-项目架构
+
 项目目录结构
 
 ├── CG_Disney_Principled_BSDF.py  # 核心渲染实现（BSDF、路径追踪器等）
@@ -34,7 +34,10 @@ Disney Principled BSDF 渲染及查看器
   - SphereScene：简单场景类，支持射线与球体的相交检测
   - Camera：相机模型，负责从像素坐标生成射线方向
   - BSDFRendererUI：UI 界面类，提供参数调整和渲染预览
+  - 
+
 使用方式
+
 1. 环境准备
 安装依赖库：
 pip install torch matplotlib pillow tkinter
@@ -49,7 +52,9 @@ python viewer.py或运行viewer.exe
 1. python
 2. 运行
 python CG_Disney_Principled_BSDF.py
+
 参数说明
+
 通过 UI 界面或set_parameters方法可调整的核心参数：
 - base_color：基础颜色（RGB 值，如 [1,0,0] 为红色）
 - metallic：金属度（0 = 非金属，1 = 金属）

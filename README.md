@@ -42,16 +42,16 @@ Disney Principled BSDF 渲染及查看器
 安装依赖库：
 pip install torch matplotlib pillow tkinter
 2. 基本使用流程
+
 方式一：通过 UI 界面交互
 运行材质球查看器，调整参数并渲染：
 python viewer.py或运行viewer.exe
 - 界面包含参数滑块（金属度、粗糙度等）、颜色选择器
 - 支持实时预览渲染结果，调整后点击 "渲染" 按钮更新图像
+
 方式二：脚本方式渲染
 在代码materials.py中配置材质参数并渲染：
-1. python
-2. 运行
-python CG_Disney_Principled_BSDF.py
+运行python CG_Disney_Principled_BSDF.py
 
 参数说明
 

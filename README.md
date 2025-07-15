@@ -11,8 +11,11 @@ Disney Principled BSDF 渲染及查看器
 项目目录结构
 
 ├── CG_Disney_Principled_BSDF.py  # 核心渲染实现（BSDF、路径追踪器等）
+
 ├── materials.py                  # 材质参数预设（金属、塑料、玻璃等）
+
 └── viewer.py                     # 渲染材质球查看器UI界面
+
 核心类说明
 1. DisneyPrincipledBSDF
 实现迪士尼原则性 BSDF 模型的核心类，包含多种材质组件：

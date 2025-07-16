@@ -1,6 +1,6 @@
 # Disney Principled BSDF 渲染及查看器
 
-项目概述
+一、项目概述
 
 本项目实现了一个基于迪士尼原则性 BSDF（Bidirectional Scattering Distribution Function） 的路径追踪渲染器，旨在通过物理精确的光线模拟，生成具有真实感的材质效果。系统支持多种材质参数调整（如金属度、粗糙度、各向异性等），并通过多进程并行渲染提升效率。同时本项目提供了一个渲染材质球查看器，方便实时调整和预览。
 核心功能包括：
@@ -9,7 +9,7 @@
 - 多进程并行渲染，提升大分辨率图像的渲染效率
 - 可视化 UI 界面，支持实时调整参数并预览渲染结果
 
-项目目录结构
+二、项目目录结构
 
 ├── CG_Disney_Principled_BSDF.py  # 核心渲染实现（BSDF、路径追踪器等）
 
@@ -17,7 +17,7 @@
 
 └── viewer.py                     # 渲染材质球查看器UI界面
 
-核心类说明
+三、核心类说明
 1. DisneyPrincipledBSDF
 实现迪士尼原则性 BSDF 模型的核心类，包含多种材质组件：
   - 漫反射项（diffuse_term）：模拟非金属材质的漫反射效果
@@ -37,7 +37,7 @@
   - BSDFRendererUI：UI 界面类，提供参数调整和渲染预览
   - 
 
-使用方式
+四、使用方式
 
 1. 环境准备
 安装依赖库：
@@ -56,7 +56,7 @@ python viewer.py或运行viewer.exe
 
 <img width="1280" height="1046" alt="image" src="https://github.com/user-attachments/assets/d6c5e6fe-57ff-4da8-a22c-25515c9c09cd" />
 
-参数说明
+五、参数说明
 
 通过 UI 界面或set_parameters方法可调整的核心参数：
 - base_color：基础颜色（RGB 值，如 [1,0,0] 为红色）
